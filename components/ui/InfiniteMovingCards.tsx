@@ -2,6 +2,7 @@
 
 import { cn } from "@/utils/cn";
 import React, { useEffect, useState } from "react";
+import { FaStar } from "react-icons/fa6";
 
 export const InfiniteMovingCards = ({
   items,
@@ -110,6 +111,14 @@ export const InfiniteMovingCards = ({
                   <span className=" text-sm font-normal leading-[1.6] text-gray-400">
                     {item.title}
                   </span>
+                  <div className="flex flex-row items-center gap-1">
+                    <span>Rating:</span>
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                  </div>
                 </span>
               </div>
             </blockquote>

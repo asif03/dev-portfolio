@@ -72,33 +72,66 @@ export const gridItems = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Asif made a perfect job. He took the main idea and deliver the code in record time. The code was simple, easy to understand an the UI was very pretty. He is highly recommended how a programmer.",
+    name: "Carlos Andrés P",
+    country: "Bogotá, Colombia",
+    title: "Excel to PHP + MYSQL + FPDF using MVC (Codeigniter) -- 4",
+    rating: 5,
+    platform: "Freelancer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Excellent work. He has done not only what i requested (a simple php script), he provided a powerful php script. Thanks again for the excellent work, Regards!",
+    name: "Gabriele P.",
+    country: "Rome, Italy",
+    title: "php search script",
+    rating: 5,
+    platform: "Freelancer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Asif is a really great coder, completed the job smoothly and successfully, I'll definitely work with him again! A++.",
+    name: "Davide V.",
+    country: "Turin, Italy",
+    title: "Ajax CRUD for 3 simple tables",
+    rating: 5,
+    platform: "Freelancer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Great work! Project was on time and delivered as expected. Added functionality that was implied but not directly documented which was a great help. Will definitely hire again!",
+    name: "Shomari M.",
+    country: "Christiansted, United States",
+    title: "Create PHP/AJAX form for adding and updating MySQL data",
+    rating: 5,
+    platform: "Freelancer",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Asif maintained his great cooperation durig the whole project. He is really nice and is always available when needed. One of the nicest persons I've came across in oDesk. Great skills as well.",
+    name: "Alex",
+    country: "Merida, Mexico",
+    title: "Mobile website + simple back end",
+    rating: 5,
+    platform: "Upwork",
+  },
+  {
+    quote:
+      "Asif maintained his great cooperation durig the whole project. He is really nice and is always available when needed. One of the nicest persons I've came across in oDesk. Great skills as well.",
+    name: "Alex",
+    country: "Merida, Mexico",
+    title: "Mobile website + simple back end",
+    rating: 5,
+    platform: "Upwork",
+  },
+  {
+    quote:
+      "Asif is a very good developer, he did whatever we ask him for and we would like to work with him on future projects.",
+    name: "Alex",
+    country: "Merida, Mexico",
+    title: "Invoice Generator For A Dental Clinic (Mysql, Jquery)",
+    rating: 5,
+    platform: "Upwork",
   },
 ];
 
@@ -106,13 +139,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: "https://github.com/asif03",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "#",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/md-asif-iqbal-642b011b/",
   },
 ];
