@@ -74,6 +74,7 @@ export const testimonials = [
     quote:
       "Asif made a perfect job. He took the main idea and deliver the code in record time. The code was simple, easy to understand an the UI was very pretty. He is highly recommended how a programmer.",
     name: "Carlos Andrés P",
+    clientImage: "/profile_logo1.webp",
     country: "Bogotá, Colombia",
     title: "Excel to PHP + MYSQL + FPDF using MVC (Codeigniter) -- 4",
     rating: 5,
@@ -83,6 +84,7 @@ export const testimonials = [
     quote:
       "Excellent work. He has done not only what i requested (a simple php script), he provided a powerful php script. Thanks again for the excellent work, Regards!",
     name: "Gabriele P.",
+    clientImage: "/profile_logo1.webp",
     country: "Rome, Italy",
     title: "php search script",
     rating: 5,
@@ -92,6 +94,7 @@ export const testimonials = [
     quote:
       "Asif is a really great coder, completed the job smoothly and successfully, I'll definitely work with him again! A++.",
     name: "Davide V.",
+    clientImage: "/profile_logo1.webp",
     country: "Turin, Italy",
     title: "Ajax CRUD for 3 simple tables",
     rating: 5,
@@ -101,6 +104,7 @@ export const testimonials = [
     quote:
       "Great work! Project was on time and delivered as expected. Added functionality that was implied but not directly documented which was a great help. Will definitely hire again!",
     name: "Shomari M.",
+    clientImage: "/cplogosmall.webp",
     country: "Christiansted, United States",
     title: "Create PHP/AJAX form for adding and updating MySQL data",
     rating: 5,
@@ -110,6 +114,7 @@ export const testimonials = [
     quote:
       "Asif maintained his great cooperation durig the whole project. He is really nice and is always available when needed. One of the nicest persons I've came across in oDesk. Great skills as well.",
     name: "Alex",
+    clientImage: "/profile_logo1.webp",
     country: "Merida, Mexico",
     title: "Mobile website + simple back end",
     rating: 5,
@@ -117,8 +122,9 @@ export const testimonials = [
   },
   {
     quote:
-      "Asif maintained his great cooperation durig the whole project. He is really nice and is always available when needed. One of the nicest persons I've came across in oDesk. Great skills as well.",
+      "Asif maintained his great cooperation during the whole project. He is really nice and is always available when needed. One of the nicest persons I've came across in oDesk. Great skills as well.",
     name: "Alex",
+    clientImage: "/profile_logo1.webp",
     country: "Merida, Mexico",
     title: "Mobile website + simple back end",
     rating: 5,
@@ -128,10 +134,42 @@ export const testimonials = [
     quote:
       "Asif is a very good developer, he did whatever we ask him for and we would like to work with him on future projects.",
     name: "Alex",
+    clientImage: "/Flag_of_Mexico.png",
     country: "Merida, Mexico",
     title: "Invoice Generator For A Dental Clinic (Mysql, Jquery)",
     rating: 5,
     platform: "Upwork",
+  },
+];
+
+export const workExperience = [
+  {
+    id: 1,
+    title: "Frontend Engineer Intern",
+    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
+    title: "Mobile App Dev - JSM Tech",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
+  },
+  {
+    id: 3,
+    title: "Freelance App Dev Project",
+    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp3.svg",
+  },
+  {
+    id: 4,
+    title: "Lead Frontend Developer",
+    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
   },
 ];
 

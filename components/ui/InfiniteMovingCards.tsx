@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/utils/cn";
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa6";
 
@@ -14,7 +15,11 @@ export const InfiniteMovingCards = ({
   items: {
     quote: string;
     name: string;
+    clientImage?: string;
     title: string;
+    country?: string;
+    rating?: string;
+    platform?: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -100,26 +105,38 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className=" relative z-20 text-sm font-normal leading-[1.6] text-gray-100">
+              <span className="relative z-20 text-sm font-normal leading-[1.6] text-gray-100">
                 {item.quote}
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className=" text-sm font-normal leading-[1.6] text-gray-400">
-                    {item.name}
-                  </span>
-                  <span className=" text-sm font-normal leading-[1.6] text-gray-400">
-                    {item.title}
-                  </span>
-                  <div className="flex flex-row items-center gap-1">
-                    <span>Rating:</span>
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
-                    <FaStar />
+                <div className="flex flex-col gap-1">
+                  <div className="flex flex-row gap-2 text-sm font-normal leading-[1.6] text-gray-400">
+                    <Image
+                      className="rounded-full"
+                      src={item.clientImage}
+                      width={40}
+                      height={36}
+                      alt="Profile Image"
+                    />
+                    <div className="flex flex-col text-sm font-normal leading-[1.6] text-gray-400">
+                      <span>{item.name}</span>
+                      <span>{item.country}</span>
+                    </div>
                   </div>
-                </span>
+                  <div className="flex flex-row items-center gap-1 text-yellow-600">
+                    <span className="text-white">
+                      Platform: {item.platform} (
+                    </span>
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <FaStar />
+                    <span className="px-1 text-black dark:text-white">
+                      5.0)
+                    </span>
+                  </div>
+                </div>
               </div>
             </blockquote>
           </li>
