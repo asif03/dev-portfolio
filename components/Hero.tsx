@@ -8,8 +8,8 @@ const Hero = () => {
   return (
     <div className="flex justify-center">
       <div className="flex max-w-[89vw] flex-col items-center justify-center gap-4">
-        <h2 className="max-w-80 text-center text-xs uppercase tracking-widest text-blue-500 dark:text-blue-100">
-          Dynamic Web Magic with Next.js
+        <h2 className="max-w-96 text-center text-xs uppercase tracking-widest text-blue-500 dark:text-blue-100">
+          Dynamic Web Magic with Full Stack Development
         </h2>
         <TextGenerateEffect
           className="text-center text-2xl lg:text-7xl"
