@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Experiences = () => {
   return (
-    <div className="mt-12 grid w-full grid-cols-1 gap-10 lg:grid-cols-2">
+    <div className="mt-12 grid w-full grid-cols-1 gap-10 px-2 lg:grid-cols-2 lg:px-0">
       {workExperience.map((card) => (
         <Button
           key={card.id}

@@ -86,18 +86,15 @@ export const InfiniteMovingCards = ({
       <ul
         ref={scrollerRef}
         className={cn(
-          " flex w-max min-w-full shrink-0 flex-nowrap gap-4 py-4",
+          " flex w-max min-w-full shrink-0 flex-nowrap gap-4 bg-white/85 py-4 dark:bg-black-100",
           start && "animate-scroll ",
           pauseOnHover && "hover:[animation-play-state:paused]",
         )}
       >
         {items.map((item, idx) => (
           <li
-            className="relative w-[350px] max-w-full flex-shrink-0 rounded-2xl border border-b-0 border-slate-700 px-8 py-6 md:w-[450px]"
-            style={{
-              background:
-                "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
-            }}
+            className="border-b-1 relative w-[350px] max-w-full flex-shrink-0 rounded-2xl border border-slate-200 bg-gradient-to-r from-slate-50 to-slate-100 px-8
+            py-6 dark:border-slate-700 dark:from-slate-800 dark:to-slate-900 md:w-[450px]"
             key={idx}
           >
             <blockquote>
@@ -105,10 +102,10 @@ export const InfiniteMovingCards = ({
                 aria-hidden="true"
                 className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
               ></div>
-              <span className="relative z-20 text-sm font-normal leading-[1.6] text-gray-100">
+              <div className="min-h-28 text-sm font-normal leading-[1.6] text-gray-900 dark:text-gray-100">
                 {item.quote}
-              </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
+              </div>
+              <div className=" mt-6 flex flex-row items-center">
                 <div className="flex flex-col gap-1">
                   <div className="flex flex-row gap-2 text-sm font-normal leading-[1.6] text-gray-400">
                     <Image
@@ -118,13 +115,13 @@ export const InfiniteMovingCards = ({
                       height={36}
                       alt="Profile Image"
                     />
-                    <div className="flex flex-col text-sm font-normal leading-[1.6] text-gray-400">
+                    <div className="flex flex-col text-sm font-normal leading-[1.6] text-gray-500 dark:text-gray-400">
                       <span>{item.name}</span>
                       <span>{item.country}</span>
                     </div>
                   </div>
                   <div className="flex flex-row items-center gap-1 text-yellow-600">
-                    <span className="text-white">
+                    <span className="text-gray-500 dark:text-gray-400">
                       Platform: {item.platform} (
                     </span>
                     <FaStar />

@@ -157,16 +157,6 @@ export const testimonials = [
   },
   {
     quote:
-      "Asif maintained his great cooperation during the whole project. He is really nice and is always available when needed. One of the nicest persons I've came across in oDesk. Great skills as well.",
-    name: "Alex",
-    clientImage: "/profile_logo1.webp",
-    country: "Merida, Mexico",
-    title: "Mobile website + simple back end",
-    rating: 5,
-    platform: "Upwork",
-  },
-  {
-    quote:
       "Asif is a very good developer, he did whatever we ask him for and we would like to work with him on future projects.",
     name: "Alex",
     clientImage: "/Flag_of_Mexico.png",
@@ -180,14 +170,14 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Backend Engineering",
+    desc: "Assisted in the development of a web-based API platform using Node.js or Laravel, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
+    title: "Mobile App Dev",
     desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
@@ -211,7 +201,7 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    icon: "<BsTwitter />",
     url: "https://github.com/asif03",
   },
   {
